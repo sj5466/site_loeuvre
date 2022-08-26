@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="여성핸드백, 숄더백, 자켓, 티셔츠"/>
+<meta name="description" content="프렌치 감성의 유니크한 디자인 브랜드 루에브르"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Detailedpage-LOEUVRE</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,500&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/detailedpage.css">
+
+<script src="./js/modernizr-custom.js"></script>
+<script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script src="./js/detailedpage.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="inner">
+            <h1 class="logo"><a href="loeuvre_mainpage.html"><img src="./images/subpage_logo.jpg" alt="루에브르"></a></h1>
+            <p class="blind">세일, 컬렉션을 볼 수 있는 메뉴</p>
+            <ul class="top_gnb">
+                <li><a href="#"><img src="./images/subpage_topgnb.jpg" alt="세일상품"> Sale Product</a></li>
+                <li><a href="#"><img src="./images/subpage_topgnb.jpg" alt="2022컬렉션">2022 Collection</a></li>
+            </ul>
+            <p class="blind">주요메뉴</p>
+            <ul class="gnb">
+                <li>
+                    <a href="loeuvre_subpage.html">Shop</a>
+                    <ul class="sub_gnb">
+                        <li><a href="loeuvre_subpage.html">Bag</a></li>
+                        <li><a href="loeuvre_subpage.html">Clothes</a></li>
+                        <li><a href="loeuvre_subpage.html">Accessory</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Brand</a></li>
+                <li><a href="#">Contents</a></li>
+                <li><a href="loeuvre_loginpage.html">Login</a></li>  
+            </ul>
+            <ul class="until">
+                <li>
+                    <form action="#" method="post">
+                        <fieldset>
+                            <legend class="blind">통합검색어</legend>
+                            <label for="search" class="blind">검색어 입력</label>
+                            <input type="text" id="search">
+                            <input type="image" src="./images/subpage_search.jpg" alt="검색" id="search_icon">
+                        </fieldset>
+                    </form>
+                </li>
+                <li><a href="#"><img src="./images/subpage_shopingcart.jpg" alt="장바구니"></a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="visual">
+        <div class="inner">
+            <p class="blind">슬라이드 갤러리</p>
+            <div id="multiplay_gallery">
+                <ul class="gallery">
+                    <li><a href="#"><img src="./images/visual_main_01.jpg" alt="자켓모델사진"></a></li>
+                    <li><a href="#"><img src="./images/visual_main_02.jpg" alt="자켓모델사진"></a></li>
+                    <li><a href="#"><img src="./images/visual_main_03.jpg" alt="자켓모델사진"></a></li>
+                    <li><a href="#"><img src="./images/visual_main_04.jpg" alt="자켓모델사진"></a></li>
+                </ul>
+            </div>
+
+            <div id="detailes_description">
+                <p class="blind">상품 가격 및 상세 정보</p>
+                <div class="drp_title">
+                    <h2>Square Curved Neck Jacket</h2>
+                </div>
+
+                <div class="drp_detailes">
+                    <p class="d1"><span>판매가</span>239,000원</p>
+                    <p class="d2"><span>배송비</span>3,000원</p>
+                    <p class="d3"><span>상품코드</span>SW2SJ513-10</p>
+                </div>
+
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend class="blind">수량</legend>
+                        <div class="drp_count">
+                            <div>
+                                <label for="count">Square Curved Neck Jacket</label>
+                                <input type="number" id="count" name="count" min="0" max="10" placeholder="0">
+                                <p>239,000원</p>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="blind">컬러,사이즈선택</legend>
+                        <div class="drp_select_color">
+                            <label for="color_select">컬러</label>
+                            <select name="color_select" id="color_select">
+                                <option value="옵션선택">옵션 선택</option>
+                                <option value="Black">Black</option>
+                            </select>
+                        </div>
+                        <div class="drp_select_size">
+                            <label for="size_select">사이즈</label>
+                            <select name="size_select" id="size_select">
+                                <option value="옵션선택">옵션 선택</option>
+                                <option value="01_S">01_S</option>
+                                <option value="02_M">02_M</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                </form>
+                <div class="total_amount">
+                    <p><span>총 합계금액</span>239,000원</p>
+                </div>
+                <p class="blind">상품 구매 버튼</p>
+                <ul class="button">
+                    <li class="u1"><a href="#">BYE NOW</a></li>
+                    <li class="u2"><a href="#">ADD CART</a></li>
+                    <li class="u3"><a href="#">WISHLIST</a></li>
+                </ul>
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <div class="inner">
+            <p class="blind">모델 상품 착용 컷</p>
+            <div id="part_01">
+                <div class="p1">
+                    <img src="./images/part1_01.jpg" alt="자켓모델사진">
+                </div>
+                <div class="p2">
+                    <p><span class="s1">2022</span><span class="s2">Spring</span>Collection</p>
+                </div>
+                <div class="p3">
+                    <p>
+                        Classy<br>
+                        Rebellion
+                        <span></span>
+                    </p>
+                    <img src="./images/part1_02.jpg" alt="자켓모델사진" class="p3_1">
+                    <img src="./images/part1_03.jpg" alt="자켓모델사진" class="p3_2">
+                </div>
+            </div>
+            <div id="part_02">
+                <img src="./images/part2.jpg" alt="자켓모델사진">
+            </div>
+            <div id="part_03">
+                <div class="a1">
+                    <img src="./images/part3_01.jpg" alt="자켓모델사진">
+                </div>
+                <div class="a2">
+                    <p>
+                        <span class="n1">Square</span> 
+                        <span class="n2">Curved</span>
+                        Neck Jacket
+                    </p>
+                    <img src="./images/part3_02.jpg" alt="자켓모델사진">
+                </div>
+                <div class="a3">
+                    <img src="./images/part3_03.jpg" alt="자켓모델사진">
+                </div>
+            </div>
+            <div id="part_04">
+                <h2>Square Curved Neck Jacket</h2>
+                <div class="e1">
+                    <img src="./images/part4_01.jpg" alt="자켓상세사진">
+                </div>
+                <div class="e2">
+                    <h3>Description</h3>
+                    <p>
+                        곡선라인의 언발언스한 스퀘어 네크라인이  매력적인 크롭자켓입니다.<br><br>
+                        투버튼의 여밈으로 아래 단추만 잠궜을 때<br>
+                        비대칭으로 젖혀지는 카라디자인이 유니크한 디자인입니다.<br><br>
+                        동일 소재로 제작된 스커트, 팬츠의 셋업으로 착용할 수 있습니다.
+                    </p>
+                </div>
+            </div>
+            <div id="part_05">
+                <div class="q1">
+                    <img src="./images/part5.jpg" alt="자켓상세사진">
+                </div>
+                <div class="q2">
+                    <p class="blind">상품 상세 정보 표</p>
+                    <table class="fit_guide">
+                        <caption><span></span>Fit&nbsp;Guide</caption>
+                        <colgroup>
+                            <col style="width:153px;">
+                            <col style="width:190px;">
+                            <col style="width:215px;">
+                            <col style="width:175px;">
+                            <col style="width:163px;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th class="f1">Size Guide</th>
+                                <th>Tight</th>
+                                <th>Slim</th>
+                                <th class="f2">Standard</th>
+                                <th>Oversiazed</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="f1">Thickness</td>
+                                <td>Light</td>
+                                <td class="f2">Nomal</td>
+                                <td>Thick</td>
+                                <td>Heavy</td>
+                            </tr>
+                            <tr>
+                                <td class="f1">Stretch</td>
+                                <td class="f2">Non Stretch</td>
+                                <td>Nomal</td>
+                                <td>Stretch</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="f1">Lining</td>
+                                <td class="f2">With Lining</td>
+                                <td>Without Lining</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="q3">
+                    <p class="blind">상품 사이즈 표</p>
+                    <table class="size_chart">
+                        <caption><span></span>Size&nbsp;Chart</caption>
+                        <colgroup>
+                            <col style="width:181px;">
+                            <col style="width:150px;">
+                            <col style="width:150px;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Size Guide</th>
+                                <th>01_S</th>
+                                <th>02_M</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Length</td>
+                                <td>45</td>
+                                <td>46</td>
+                            </tr>
+                            <tr>
+                                <td>Shoulder</td>
+                                <td>42</td>
+                                <td>43</td>
+                            </tr>
+                            <tr>
+                                <td>Chest</td>
+                                <td>50</td>
+                                <td>52</td>
+                            </tr>
+                            <tr>
+                                <td>Sleeve</td>
+                                <td>60</td>
+                                <td>61</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <img src="./images/part5_04.jpg" alt="의상기장상세설명아이콘">    
+                </div>
+                <p class="blind">탑버튼을 클릭하면 맨위 페이지로 이동합니다</p>
+                <div class="top_btn">
+                    <a href="#"><img src="./images/top_button.png" alt=""></a>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="inner">
+            <p class="blind">회사 기타정보</p>
+            <h2><img src="./images/footer_logo.jpg" alt="루에브르"></h2>
+            <p class="copyright">
+            COPYRIGHT (C) 2022, LOEUVRE.<br>
+            ALL  RIGHTS  RESERVED
+            </p>
+            <ul class="info">
+                <li><a href="#"><img src="./images/footer_01.jpg" alt="인스타"></a></li>
+                <li><a href="#"><img src="./images/footer_02.jpg" alt="페이스북"></a></li>
+                <li><a href="#"><img src="./images/footer_03.jpg" alt="유투브"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
